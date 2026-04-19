@@ -1,0 +1,12 @@
+{
+  "name": "pubsub-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
